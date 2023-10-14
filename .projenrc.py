@@ -11,7 +11,7 @@ project = PythonProject(
     name="nl-adapters",
     version="0.1.0",
     poetry=True,
-    description="A library that provides natural language interfaces for any python code.",
+    description="A library that provides a natural language interface for python code.",
 )
 
 project.synth()

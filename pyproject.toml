@@ -7,8 +7,8 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "nl-adapters"
 version = "0.1.0"
-description = "A library that provides natural language interfaces for any python code."
-authors = [ "Jacob Petterle" ]
+description = "A library that provides a natural language interface for python code."
+authors = [ "Jacob Petterle <jacobpetterle@tai-tutor.team>" ]
 readme = "README.md"
 
   [tool.poetry.dependencies]
