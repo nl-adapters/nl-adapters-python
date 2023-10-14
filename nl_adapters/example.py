@@ -5,4 +5,4 @@ def hello(name: str) -> str:
     Returns:
         str: greeting message
     """
-    return f"Hello {name}!"
+    return f"Hello {name}!
