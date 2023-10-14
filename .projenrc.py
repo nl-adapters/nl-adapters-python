@@ -1,10 +1,10 @@
-from projen.python import PythonProject
+from projen.python import PythonProject, VenvOptions
 
 project = PythonProject(
-    author_email="jacobpetterle@gmail.com",
+    author_email="jacobpetterle@tai-tutor.team",
     author_name="Jacob Petterle",
-    module_name="nl_adapters_python",
-    name="nl-adapters-python",
+    module_name="nl_adapters",
+    name="nl-adapters",
     version="0.1.0",
 )
 
