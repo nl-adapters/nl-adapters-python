@@ -1,11 +1,11 @@
-from projen.python import PoetryPyproject, PythonProject
-
-
+from projen.python import PythonProject
 
 project = PythonProject(
-    name="nl-adapters",
-    module_name="nl_adapters",
+    author_email="jacobpetterle@gmail.com",
     author_name="Jacob Petterle",
-    author_email="jacobpetterle@tai-tutor.team",
-    version="0.0.0",
+    module_name="nl_adapters_python",
+    name="nl-adapters-python",
+    version="0.1.0",
 )
+
+project.synth()
