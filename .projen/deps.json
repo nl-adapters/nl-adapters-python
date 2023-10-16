@@ -2,8 +2,18 @@
   "dependencies": [
     {
       "name": "projen",
-      "version": "0.72.12",
+      "version": ">=0.74.17",
       "type": "devenv"
+    },
+    {
+      "name": "langchain",
+      "version": ">=0.0.314",
+      "type": "runtime"
+    },
+    {
+      "name": "python",
+      "version": ">=3.8.1,<4",
+      "type": "runtime"
     },
     {
       "name": "pytest",
